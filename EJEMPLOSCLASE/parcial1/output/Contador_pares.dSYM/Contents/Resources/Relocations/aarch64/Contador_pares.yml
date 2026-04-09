@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/miguelgomezmiranda/Desktop/c-1/EJEMPLOSCLASE/parcial1/output/Contador_pares'
+relocations:     []
+...
