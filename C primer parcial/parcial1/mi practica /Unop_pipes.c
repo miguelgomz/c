@@ -4,6 +4,7 @@
 int calculo(int n){
 
 	int resultado=n*n;
+	
 	return resultado;
 	}
 
