@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/mman.h>
-#include <sys/mman.h>
 #include <sys/wait.h>
 
 
@@ -26,7 +25,7 @@ int main(){
 
     }else if(hijo==0){
 
-        sleep(10);
+        sleep(5);
         printf("Yo soy el hijo y el valor es %d",*pizarra);
         
         *pizarra= *pizarra + 1;
