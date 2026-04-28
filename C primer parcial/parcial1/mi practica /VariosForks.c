@@ -5,7 +5,7 @@
 #include <stdbool.h> 
 #include <stdlib.h> 
 
-
+//Aqui los hijos vieven de uno en uno y luego mueren 
 int main (){
     int contador=0;
     for(int i=0;i<6;i++){
