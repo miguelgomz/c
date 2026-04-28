@@ -17,8 +17,7 @@ printf("Y cauntos llegaron de cada producto  %d",tipos_productos_hoy);
  int precio_unidad[tipos_productos_hoy];
 
 printf("Cuanto cuesta cada producto")
- for (int i=0;i<
- tipos_productos_hoy;i++){
+ for (int i=0;i<tipos_productos_hoy;i++){
     scanf("%d",precio_unidad[i]);
     
  }
