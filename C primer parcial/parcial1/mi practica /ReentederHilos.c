@@ -10,6 +10,7 @@ void*hola(void*arg){
 int main (){
 pthread_t hilo1;
 
+
 pthread_create(&hilo1,NULL,hola,NULL);
 pthread_join(hilo1,NULL);
 }
